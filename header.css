@@ -1,0 +1,219 @@
+header {
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+}
+
+/* 맨윗줄 */
+
+[href="#"] :visited {
+  color: white;
+}
+
+.first {
+  text-align: center;
+  background-color: rgb(170, 169, 169);
+  color: white;
+  height: 30px;
+  padding-top: 4px;
+}
+
+/* 첫번째 줄 텍스트 내용 */
+.first > a {
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+}
+
+.first > a:hover {
+  text-decoration: underline;
+}
+
+/* 두번째 줄 */
+.second {
+  text-decoration: none;
+  text-align: center;
+  background-color: black;
+  height: 30px;
+  padding-top: 4px;
+}
+
+/* 두번째 줄 텍스트 내용 */
+.second > a {
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+}
+
+.second > a:hover {
+  text-decoration: underline;
+}
+
+/* 로고 쪽 */
+#top2 {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  height: 150px;
+  background-color: white;
+  background: linear-gradient(
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 1) 90%,
+    rgba(255, 255, 255, 0.1) 100%
+  );
+}
+
+/* 로고 센터 */
+.center > img {
+  margin-left: 85px;
+}
+
+/* 왼쪽 */
+
+[href="#3"]:visited {
+  color: black;
+}
+
+.menu1 > a {
+  text-decoration: none;
+  color: black;
+}
+
+.left {
+  margin-left: 70px;
+  font-size: 24px;
+  font-weight: 200;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.left > ul > li {
+  list-style-type: none;
+}
+
+.menu1 > a:hover {
+  text-decoration: underline;
+}
+
+.menu2 > li:hover {
+  text-decoration: underline;
+}
+
+.menu2 > li > a {
+  color: black;
+  text-decoration: none;
+}
+
+.left > ul > li:hover > ul > li {
+  display: block;
+  transition: display 0.5s ease-in-out;
+}
+
+.left ul {
+  list-style-type: none;
+}
+
+.menu2 > li {
+  text-indent: 10px;
+  display: none;
+}
+
+/* 메뉴 세부 */
+.last1 {
+  margin-bottom: 40px;
+}
+
+.last2 {
+  margin-bottom: 30px;
+}
+
+/* 검색창 */
+
+#search1 {
+  background: none;
+}
+
+.search > textarea {
+  margin-top: 30px;
+  width: 200px;
+  height: 40px;
+  padding-top: 10px;
+  outline: none;
+  resize: none;
+  border: none;
+  border-bottom: 1px solid black;
+  size-adjust: none;
+  text-align: left;
+  font-size: 24px;
+  font-weight: bold;
+}
+.search > textarea::placeholder {
+  color: black;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.search > textarea:active {
+  border: 1px solid black;
+}
+
+/* 오른쪽 */
+
+.right {
+  margin-right: 60px;
+  justify-items: center;
+}
+
+.right > ul {
+  display: flex;
+}
+
+.right > ul > li {
+  padding-left: 25px;
+  list-style-type: none;
+}
+
+.right > ul > li:hover {
+  text-decoration: underline;
+}
+
+.right > ul > li > a {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+}
+
+.material-symbols-outlined {
+  padding-top: 5px;
+  color: grey;
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
+}
+
+[href="#1"]:visited {
+  color: black;
+}
+
+#KR {
+  font-size: 24px;
+  text-decoration: none;
+  color: black;
+}
+
+#KR:hover {
+  text-decoration: underline;
+}
+
+.KR1 > li {
+  list-style-type: none;
+}
+
+.KR1 > li:active > .en > li {
+  display: block;
+}
+
+.KR1 > li > ul > li {
+  list-style-type: none;
+  font-size: 24px;
+  display: none;
+}
+
+.KR1 > li > ul > li:hover {
+  text-decoration: underline;
+}
